@@ -1,0 +1,124 @@
+* { /* resetando a página */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b6e9ff;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(210, 30, 14, 1);
+    color: rgb(255, 255, 255, 1);
+}
+
+.logo-nintendo {
+    height: 90px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a /*colocar a para a propiedade funcionar nos links*/ {
+    display: inline;
+    margin-left: 16px;
+    color: rgb(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.container /* estilizando o container do header*/ {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-banner {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    z-index: 1;
+    width: 100%;
+}
+
+.capa {
+    display: block;
+    margin: 0 auto;
+}
+
+.start {
+    text-align: center;
+    margin-top: 2%
+}
+
+.start-text {
+    position: relative;
+    text-align: center;
+    top: 5%;
+}
+
+.start-p {
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.move-toisland {
+    position: relative;
+    height: 641px;
+    margin-top: 10px;
+}
+
+.personal-touch {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 30%;
+    width: 500px;
+    z-index: 1;
+}
+
+.villager {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.villager-title {
+    margin: 20px;
+}
+
+.villagers-image {
+    top: 3px;
+    width: 98%;
+}
+
+.good-neighbors {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.good-neighborsp {
+    margin-top: 4px;
+}
+
+.getting {
+    text-align: center;
+    margin-top: 30px;
+}
